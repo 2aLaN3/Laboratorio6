@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Estilos generales */
         body {
@@ -34,46 +35,48 @@
             color: #fff;
             text-decoration: none;
             padding: 10px 20px;
+            margin: 0 10px;
             transition: background-color 0.3s;
         }
         nav a:hover {
             background-color: #666;
         }
-        /* Estilos para la imagen */
-        img {
+        nav .current {
+            background-color: #666;
+        }
+        /* Estilos para el contenido */
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .content img {
             display: block;
-            margin: auto;
-            max-width: 300px;
+            margin: 20px auto;
+            max-width: 100%;
             height: auto;
-            margin-top: 8px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        /* Estilos para el texto grande */
-        .texto-grande {
-            text-align: center;
-            font-size: 28px;
-            margin-top: 20px;
-            color: #555;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Mi Página</h1>
+    <h1>Exploración y diversión</h1>
 </header>
 
 <nav>
-    <a href="#">Página 1</a>
-    <a href="#">Página 2</a>
-    <a href="#">Página 3</a>
+    <a href="index.html" class="current">Inicio</a>
+    <a href="Página1.html">Página 1</a>
+    <a href="Página2.html">Página 2</a>
+    <a href="Página3.html">Página 3</a>
 </nav>
 
-<img src="orange.jpg" alt="Descripción de la imagen">
-
-<div class="texto-grande">
-    <p>Este es un texto grande que puedes editar según tus necesidades.</p>
+<div class="content">
+    <h2>¡Bienvenido a nuestra página principal!</h2>
+    <p>¡Descubre emocionantes destinos y aventuras esperando ser exploradas! Elige entre nuestras páginas y sumérgete en experiencias únicas.</p>
+    <img src="Bienvenido.jpg" alt="Página Principal">
 </div>
 
 </body>

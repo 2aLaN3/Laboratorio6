@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        /* Estilos para el encabezado */
+        header {
+            background-color: orange;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        /* Estilos para el menú de navegación */
+        nav {
+            background-color: gray;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        nav .current {
+            background-color: #666;
+        }
+        /* Estilos para el contenido */
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .content img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aventura en el desierto</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="Página1.html">Página 1</a>
+    <a href="Página2.html" class="current">Página 2</a>
+    <a href="Página3.html">Página 3</a>
+</nav>
+
+<div class="content">
+    <p>¡Bienvenido a la página 2! En esta página, te invitamos a una emocionante aventura en el desierto. Explora vastas extensiones de dunas de arena, descubre oasis escondidos y maravíllate con el espectáculo del desierto bajo la luz de la luna.</p>
+    <h2>1. El desierto del Sahara</h2>
+    <p>El gran desierto ocupa territorio en hasta nueve países distintos. Es el más cálido del planeta y el más grande si excluimos la Antártida y el Ártico. Tiene mares de dunas fascinantes y únicos en el mundo. Ideal para travesías en 4×4 o excursiones en camellos.</p>
+    <img src="Sahara.jpg" alt="Desierto">
+    <h3>2. El desierto Kalahari</h3>
+    <p>El desierto más fascinante del sur de África y los viajeros podrán divisar animales como los suricatas o toparse con etnias como los bosquimanos.</p>
+    <img src="Kalahari.jpg" alt="Desierto">
+    <h4>3. El desierto Wadi Rum</h4>
+    <p>Uno de los desiertos más hermosos del mundo por su característico color rojizo y las hermosas formas que el viento le ha dado a las rocas. </p>
+    <img src="Wadi Rum.jpg" alt="Desierto">
+    <div class="alert alert-warning" role="alert">
+        ¡No te pierdas esta experiencia única en la vida!
+    </div>
+    <button type="button" class="btn btn-danger">¡Reservar Ahora!</button>
+</div>
+
+</body>
+</html>
